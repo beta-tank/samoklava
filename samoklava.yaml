@@ -254,7 +254,7 @@ outlines:
 pcbs:
   top_plate:
     # include JLCJLCJLCJLC text somewhere
-    include_keys: false
+    # include_keys: false
     outlines:
       edge:
         outline: plate
@@ -270,7 +270,7 @@ pcbs:
           text: "JLCJLCJLCJLC"
           justify: left
   bottom_plate:
-    include_keys: false
+    # include_keys: false
     outlines:
       edge:
         outline: bottom_outline
