@@ -60,7 +60,7 @@ points:
           spread: kx
           stagger: 17
           rotate: -10
-          origin: [0, -17]
+          origin: [0, -13]
           key:
             column_net: P19
           rows:
@@ -132,13 +132,19 @@ points:
             column_net: P18
         home:
           spread: kx
-          rotate: -5
+          rotate: -7
           origin: [-0.5 kx, -0.5 ky]
           key:
             column_net: P15
         far:
           spread: kx
-          rotate: -5
+          rotate: -7
+          origin: [-0.5 kx, -0.5 ky]
+          key:
+            column_net: P14
+        last:
+          spread: kx
+          rotate: -10
           origin: [-0.5 kx, -0.5 ky]
           key:
             column_net: P14
