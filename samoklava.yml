@@ -59,7 +59,7 @@ points:
         ring:
           spread: kx
           stagger: ky
-          rotate: -7
+          rotate: -9
           origin: [0, -9]
           key:
             column_net: P19
@@ -73,7 +73,7 @@ points:
         middle:
           spread: kx
           stagger: ky/3
-          rotate: -8
+          rotate: -6
           origin: [0, -7]
           key:
             column_net: P18
@@ -122,11 +122,11 @@ points:
     thumbfan:
       anchor:
         ref: matrix_inner_bottom
-        shift: [-1.9 kx, -1.05 ky]
+        shift: [-1.9 kx, -1.185 ky]
       columns:
         near:
           spread: kx
-          rotate: 2
+          rotate: 10
           origin: [-0.5 kx, -0.5 ky]
           key:
             column_net: P18
@@ -137,16 +137,14 @@ points:
           key:
             column_net: P15
         far:
-          spread: 0.96 kx
-          stagger: -17/6
-          rotate: -17
+          spread: 1 kx
+          rotate: -20
           origin: [-0.5 kx, -0.5 ky]
           key:
             column_net: P14
         last:
-          spread: 0.91 kx
-          stagger: -5
-          rotate: -20
+          spread: 1 kx
+          rotate: -30
           origin: [-0.5 kx, -0.5 ky]
           key:
             column_net: P14
