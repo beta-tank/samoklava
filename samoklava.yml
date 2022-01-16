@@ -45,7 +45,7 @@ points:
               bind: [0, 8, 5, 0]
         pinky:
           spread: kx
-          stagger: -0.25 cy
+          stagger: -0.3 cy
           origin: [0, -17]
           key:
             column_net: P20
@@ -58,9 +58,9 @@ points:
               bind: [0, 8, 5, 0]
         ring:
           spread: kx
-          stagger: 17
-          rotate: -10
-          origin: [0, -13]
+          stagger: ky
+          rotate: -7
+          origin: [0, -9]
           key:
             column_net: P19
           rows:
@@ -72,9 +72,9 @@ points:
               bind: [0, 5, 0, 0]
         middle:
           spread: kx
-          stagger: 17/3
-          rotate: -5
-          origin: [0, -17]
+          stagger: ky/3
+          rotate: -8
+          origin: [0, -7]
           key:
             column_net: P18
             shift: [0.2, 0]
@@ -87,9 +87,9 @@ points:
               bind: [0, 0, 0, 0]
         index:
           spread: kx
-          stagger: -17/3
+          stagger: -ky/3
           rotate: -5
-          origin: [0, -17]
+          origin: [0, -7]
           key:
             column_net: P15
           rows:
@@ -101,7 +101,7 @@ points:
               bind: [0, 0, 0, 6]
         inner:
           spread: kx
-          stagger: -17/6
+          stagger: -ky/6
           origin: [0, -17]
           key:
             column_net: P14
@@ -122,29 +122,31 @@ points:
     thumbfan:
       anchor:
         ref: matrix_inner_bottom
-        shift: [-2 kx, -1.2 ky]
+        shift: [-1.9 kx, -1.05 ky]
       columns:
         near:
           spread: kx
-          rotate: -5
+          rotate: 2
           origin: [-0.5 kx, -0.5 ky]
           key:
             column_net: P18
         home:
           spread: kx
-          rotate: -7
+          rotate: -10
           origin: [-0.5 kx, -0.5 ky]
           key:
             column_net: P15
         far:
-          spread: kx
-          rotate: -7
+          spread: 0.96 kx
+          stagger: -17/6
+          rotate: -17
           origin: [-0.5 kx, -0.5 ky]
           key:
             column_net: P14
         last:
-          spread: kx
-          rotate: -10
+          spread: 0.91 kx
+          stagger: -5
+          rotate: -20
           origin: [-0.5 kx, -0.5 ky]
           key:
             column_net: P14
